@@ -21,16 +21,9 @@ wheels/
 .installed.cfg
 *.egg
 
-# Credentials and Secrets
-credentials/
-*.pem
-*.key
-*.crt
-.env
-*.env
-config.ini
-secrets.yaml
-secrets.yml
+# Credentials
+credentials/*.json
+!credentials/__init__.py
 
 # IDE
 .idea/
